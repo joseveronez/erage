@@ -41,10 +41,12 @@
 @media only screen and (max-width : 320px) {
 }
 
+.position-solatium{ bottom: 100px!important; right:320px!important;}
+
 .Absolute{position: absolute!important;}
 .Relative{position: relative!important;}
 
-.bg-solarium{background-color: rgba(231,57,32,0.85); border-radius: 9px;padding: 15px 0px!important}
+.bg-solarium{background-color: rgba(255,77,32,0.85); border-radius: 9px;padding: 15px 0px 5px 0px!important}
 
 .MarginT1{margin-top: 1%!important;}
 .MarginT2{margin-top: 2%!important;}

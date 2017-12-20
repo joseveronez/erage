@@ -41,4 +41,4 @@
         ScriptLoader::LoadPLUGINSCSS('font-awesome-4.7.0/css/font-awesome.min.css');
 	?>
 </head>
-<body class="Biko">
+<body class="Biko" style="zoom: 0.8">
