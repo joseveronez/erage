@@ -11,10 +11,11 @@
 /* Custom, iPhone Retina */ 
    
 @media only screen and (min-width : 320px) {
-    .bg-landing {height: 100vh;background-size: cover;}
+    .bg-landing {height: 101vh;background-size: cover;}
     .bg-solatium{ background-position: center center; background-repeat: no-repeat; background-size: 103%;height: 170px;}
     .position-solatium{ bottom: 0px!important; right:9%!important;}
     .MarginDownload{margin-top: 20px!important;}
+    .MarginLogo{margin-top:  20px!important;}
 }
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
@@ -38,6 +39,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     .bg-solatium{ background-position: center center; background-repeat: no-repeat; background-size: 103%;height: 200px;}
+    .MarginLogo{margin-top: 75px!important;}
 }
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -45,6 +47,7 @@
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .bg-erage{ background-color: rgba(255,255,255,0.8)!important; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
