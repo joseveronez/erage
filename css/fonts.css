@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face {
+    font-family: Biko;
+    src: url("http://localhost/erage/fonts/Biko_Regular.otf");
+}@font-face {
+    font-family: BikoBold;
+    src: url("http://localhost/erage/fonts/Biko_Bold.otf");
+}
+.Biko{font-family: 'Biko'!important;}
+.BikoBold{font-family: 'BikoBold'!important;}
 .Montserrat {font-family: 'Montserrat', sans-serif;}
 .Festival { font-family: festival, sans-serif; }
 .Rye { font-family: rye, sans-serif; }

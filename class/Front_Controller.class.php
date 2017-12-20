@@ -6,7 +6,7 @@
     class Front_Controller
     {
         private static $_routes = array(
-            ''=>array('layout'=>'default','view'=>'home'),
+            ''=>array('layout'=>'landing','view'=>'landing'),
             
         ); //array com todas as rotas disponiveis
         private static $_pagina; //pagina requisitada

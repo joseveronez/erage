@@ -3,18 +3,18 @@
 
 	if($server == "localhost:8080") {
 		
-		$caminho_raiz = $_SERVER['DOCUMENT_ROOT']."/blank";
-		$caminho_site = "http://".$_SERVER['SERVER_NAME'].":8080/blank";
+		$caminho_raiz = $_SERVER['DOCUMENT_ROOT']."/erage";
+		$caminho_site = "http://".$_SERVER['SERVER_NAME'].":8080/erage";
 		$caminho_plugins = "http://".$_SERVER['SERVER_NAME'].":8080/plugins/";
 	} else if($server == "localhost") {
 		
-		$caminho_raiz = $_SERVER['DOCUMENT_ROOT'].'/blank';
-		$caminho_site = "http://".$_SERVER['SERVER_NAME'].'/blank';
+		$caminho_raiz = $_SERVER['DOCUMENT_ROOT'].'/erage';
+		$caminho_site = "http://".$_SERVER['SERVER_NAME'].'/erage';
 		$caminho_plugins = "http://".$_SERVER['SERVER_NAME'].'/plugins/';
 	} else if($server == "comberweb.com.br") {
 		
-		$caminho_raiz = $_SERVER['DOCUMENT_ROOT']."/projetos/blank";
-		$caminho_site = "http://".$_SERVER['SERVER_NAME'].'/projetos/blank';
+		$caminho_raiz = $_SERVER['DOCUMENT_ROOT']."/projetos/erage";
+		$caminho_site = "http://".$_SERVER['SERVER_NAME'].'/projetos/erage';
 		$caminho_plugins = "http://www.".$_SERVER['SERVER_NAME'].'/projetos/plugins/';
 	}
     /*  
@@ -39,7 +39,7 @@
 	if($server == "localhost" || $server == "localhost:8080") {
 		$urlArr = explode("/", trim($_SERVER['REQUEST_URI'],'/'));
 		
-		if($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME']=='127.0.0.1' || $urlArr[0] == 'blank') {
+		if($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME']=='127.0.0.1' || $urlArr[0] == 'erage') {
 		    array_shift($urlArr);
 		}
 	} else if($server == "comberweb.com.br") {
@@ -49,7 +49,7 @@
 		    array_shift($urlArr);
 		}
 
-		if($urlArr[0]=='projetos' && $urlArr[1]=='blank'){
+		if($urlArr[0]=='projetos' && $urlArr[1]=='erage'){
 		    array_shift($urlArr);
 		    array_shift($urlArr);
 		}
