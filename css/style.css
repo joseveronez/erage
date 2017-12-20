@@ -35,11 +35,12 @@
     .bg-solatium{ background-position: center center; background-repeat: no-repeat; background-size: 103%;height: 175px;}
     .position-solatium{ bottom: 100px!important; right:8%!important;}
     .MarginDownload{margin-top: 50px!important;}
+    .MarginLogo{margin-top: 75px!important;}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     .bg-solatium{ background-position: center center; background-repeat: no-repeat; background-size: 103%;height: 200px;}
-    .MarginLogo{margin-top: 75px!important;}
+    
 }
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -49,6 +50,7 @@
 @media only screen and (max-width : 992px) {
     .bg-erage{ background-color: rgba(255,255,255,0.8)!important; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
     .text-center-xs{text-align: center!important;}
+    .bg-landing{ background-position-x: -130px;}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
